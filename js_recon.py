@@ -209,7 +209,7 @@ HTML_TEMPLATE = """
 <head>
     <title>JS Recon Helper</title>
     <style>
-        body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        body { font-family: system-ui, sans-serif; background: white; color: #e2e8f0; max-width: 1000px; margin: 40px auto; padding: 0 20px; }
         h1 { color: #38bdf8; }
         textarea { width: 100%; height: 120px; background: #1e293b; color: #f8fafc; border: 1px solid #334155; padding: 10px; border-radius: 6px; font-family: monospace; }
         button { background: #0284c7; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 6px; cursor: pointer; margin-top: 10px; }
