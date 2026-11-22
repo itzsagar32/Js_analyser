@@ -61,12 +61,17 @@ Output Structure
 When a scan completes, the tool generates an output folder with the following layout:
 Plaintext
 
+## Output Structure
+
+```text
 recon_output/
-├── report.json          # Machine-readable structured results
-├── report.md            # Clean Markdown summary report
-└── target_domain_com/   # Folder per target containing beautified JS files
-    ├── script1.js
-    └── inline_scripts.js
+├── report.json              # Machine-readable structured results
+├── report.md                # Clean Markdown summary report
+└── target_domain_com/       # Folder per target containing beautified JS files
+    ├── script1.js           # Extracted external JavaScript file
+    └── inline_scripts.js    # Combined inline script blocks
+```
+
 
 Disclaimer
 
